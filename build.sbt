@@ -5,7 +5,7 @@ name := "SantimentAnalysis_BagOfWords"
 
 version := "1.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.10.6"
 
 libraryDependencies ++= Seq(
   "org.apache.predictionio"    %% "core"          % "0.9.7-SNAPSHOT" % "provided",
