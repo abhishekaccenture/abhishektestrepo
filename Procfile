@@ -1,2 +1,2 @@
-web:  source bin/env.sh && target/universal/stage/bin/pio-eventserver-heroku -main EventServerApp
-train: source bin/env.sh && target/universal/stage/bin/pio-eventserver-heroku -main TrainApp
+web:  source bin/env.sh && target/universal/stage/bin/pio-engine-heroku -main ServerApp
+train: source bin/env.sh && target/universal/stage/bin/pio-engine-heroku -main TrainApp
