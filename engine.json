@@ -4,7 +4,7 @@
   "engineFactory": "com.coviam.sentimentAnalysis.engine.SA_EngineFactory",
   "datasource": {
     "params" : {
-      "appName" : "testapplicationdasu",
+      "appName" : "MyApp1",
       "evalK" : 3
     }
   },
