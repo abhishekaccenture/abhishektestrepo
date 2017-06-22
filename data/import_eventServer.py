@@ -32,9 +32,9 @@ def import_events(client, file):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(
     description="Import twitter data for sentiment analysis")
-  parser.add_argument('--access_key', default='invald_access_key')
-  parser.add_argument('--url', default="0.0.0.0")
-  parser.add_argument('--file', default="")
+  parser.add_argument('--access_key', default='juOu9GG4xspJHhBXz-DKTR8DrvUw-O9MGNi7d3CYg1FCiXA9p7-cDaER2hZlUit3')
+  parser.add_argument('--url', default="https://adg-pio-eventserver.herokuapp.com")
+  parser.add_argument('--file', default="./data/sample.csv")
 
   args = parser.parse_args()
   print(args)
