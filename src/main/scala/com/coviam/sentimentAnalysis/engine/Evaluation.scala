@@ -19,7 +19,7 @@ object AccuracyEvaluation extends Evaluation{
 
 object EngineParamList extends EngineParamsGenerator{
   private[this] val baseEP = EngineParams(
-    dataSourceParams = DataSourceParam(appName = "SA_BOW", evalK = 3),
+    dataSourceParams = DataSourceParam(appName = "MyApp1", evalK = 3),
     preparatorParams = PreparatorParams(ngram = 1)
   )
 
