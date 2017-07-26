@@ -1,11 +1,13 @@
 
 assemblySettings
 
-name := "SantimentAnalysis_BagOfWords_Model"
+name := "SentimentAnalysis_BagOfWords_Model"
 
 version := "1.0"
 
 scalaVersion := "2.10.5"
+
+herokuAppName in Compile := "adg-pio-engine"
 
 libraryDependencies ++= Seq(
   "org.apache.predictionio"    %% "apache-predictionio-core"          % "0.10.0-incubating" % "provided",
