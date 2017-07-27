@@ -1,0 +1,2 @@
+predictionio==0.9.8
+pytz==2017.2
