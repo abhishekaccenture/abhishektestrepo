@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/santimentanalysis_bagofwords_model -Dhttp.port=$PORT
